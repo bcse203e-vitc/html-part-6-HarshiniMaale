@@ -1,0 +1,20 @@
+<html>
+    <script>
+        function reverse() {
+        let num = prompt("Enter the number: ");
+        num.toString();
+        num.split('');
+        num.reverse();
+        num.join();
+        parseFloat(num);
+        }
+        document.getElementById("1").innerHTML=num;
+
+    </script>
+
+    <body>
+        <button onclick=reverse()>Run</button>
+        <p>Reversed String: </p>
+        <p id="1"></p>
+    </body>
+</html>
